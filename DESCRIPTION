@@ -1,0 +1,29 @@
+Package: GVEMGRM
+Type: Package
+Title: Gaussian Variational Expectation Maximization for
+        Multidimensional Graded Response Model
+Version: 0.0
+Date: 2025-05-03
+Author: 
+  Qian Zhen Zheng [aut],
+  Laixu Shang [aut, cre],
+  Ping Feng Xu [aut],
+  Na Shan [aut],
+  Zhigen Gao [aut]
+Maintainer: Laixu Shang <laixu3107@foxmail.com>
+Description: 
+    This R package implements a Gaussian Variational Expectation Maximization (GVEM) 
+    algorithm for estimating item parameters in the multidimensional graded response
+    model. It supports both confirmatory and exploratory analyses of Likert-scale
+    response data with high-dimensional latent traits. Additionally,
+    an importance-weighted GVEM (IW-GVEM) algorithm is included to reduce bias
+    in the estimation of the loading matrix during confirmatory analysis.
+License: GPL-3
+Depends: R (>= 4.4.0)
+Imports: Rcpp (>= 1.0.13), RcppArmadillo, MASS, GPArotation
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.3.2
+LazyData: true
+Encoding: UTF-8
+NeedsCompilation: yes
+Packaged: 2025-05-17 13:04:20 UTC; laixu3107
